@@ -1,0 +1,192 @@
+:root {
+    --primary: #ff4545;
+    --white: #fff;
+    --black: #222;
+    --grey1: #3a3b3c;
+    --grey2: #828282;
+  }
+  
+
+
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Comic Sans MS";
+}
+
+nav {
+    padding: 0 10%;
+}
+.nn{
+    margin-left: auto;
+}
+.nav-item {
+    margin-left: 20px;
+}
+.home{
+    min-height: calc(100vh - 60px);
+    background: url("../img/1.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 2rem;
+    padding: 40px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+section {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+
+.title h2 {
+    font-size: 40px;
+    color:#343F56;
+    position: relative;
+    bottom: 85px;
+}
+
+.title h2::before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 140px;
+    height: 4px;
+    background: #FFC93C;
+    transform: translateX(-50%);
+}
+
+.title h2::after {
+    content: '';
+    position: absolute;
+    top: 47.5px;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    transform: translateX(-50%);
+}
+
+
+/* //////////////////////////////////////////////////// */
+
+.season .container {
+    width: 90%;
+    margin-bottom: 100px;
+    
+}
+.season .container .item{
+    border-radius: 10px;
+}
+.season .container .w {
+    margin: 10px;
+    width: 40%;
+    background:url(../img/4.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    display: inline-block;
+    height: 300px;
+    min-width: 300px;
+    justify-content: center;
+}
+.season .container .s {
+    margin: 10px;
+    width: 40%;
+    background:url(../img/3.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    display: inline-block;
+    height: 300px;
+    min-width: 300px;
+    justify-content: center;
+}
+
+.cc {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 2rem;
+    padding: 40px;
+    width: 70%;
+    border-radius: 10px;
+    position: relative;
+    top: calc(50% - 55px);
+}
+
+
+/* //////////////////////////////////////////// */
+
+.shopping-content .card {
+   
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px;
+}.shopping .shopping-content .card h3 {
+    color: #FFC93C;
+    font-size: 40px;
+    padding-bottom: 5px;
+    background: #343F56;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.shopping .shopping-content .info {
+    position: relative;
+    z-index: 555;
+    padding: 10px;
+    margin-top: 75%;
+    height: 100%;
+    transition: .5s ease;
+}
+.shopping .shopping-content .card:hover .info {
+    margin-top: 50%;
+    background: rgba(255, 255, 255, 0.719);
+}
+.shopping .shopping-content .card1 {
+    background: url(../img/5.jpg);
+}
+
+.shopping .shopping-content .card2 {
+    background: url(../img/5.jpg);
+}
+.shopping .shopping-content .card3 {
+    background: url(../img/5.jpg);
+}
+.shopping .shopping-content .card4 {
+    background: url(../img/5.jpg);
+}
+.shopping .shopping-content .card5 {
+    background: url(../img/5.jpg);
+}
+.shopping .shopping-content .card6 {
+    background: url(../img/5.jpg);
+}
+.shopping .shopping-content .card7 {
+    background: url(../img/5.jpg);
+}
+.shopping .shopping-content .card8 {
+    background: url(../img/5.jpg);
+}
+.shopping .shopping-content .card9 {
+    background: url(../img/5.jpg);
+}
+
